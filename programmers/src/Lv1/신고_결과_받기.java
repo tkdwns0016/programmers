@@ -16,7 +16,7 @@ public class 신고_결과_받기 {
 	}
 	
 	public static int[] solution(String[] id_list, String[] report, int k) {
-int[] answer = new int[id_list.length];
+		int[] answer = new int[id_list.length];
 		
 		Map<String, Integer> map1 = new HashMap<String, Integer>(); // 신고확정 횟수
 		Map<String, Integer> map2 = new HashMap<String, Integer>(); // 신고당한 횟수
